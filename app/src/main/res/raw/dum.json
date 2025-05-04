@@ -1,0 +1,55 @@
+{
+  "query": "Виктор Иван",
+  "count": 600,
+  "device_data": [
+    {
+      "timestamp": "2025-04-07T12:00:00.000Z",
+      "sensor_id": "1",
+      "temperature": 22.5,
+      "humidity": 60
+    },
+    {
+      "timestamp": "2025-04-07T12:00:00.100Z",
+      "sensor_id": "1",
+      "temperature": 22.6,
+      "humidity": 59
+    },
+    {
+      "timestamp": "2025-04-07T12:00:00.200Z",
+      "sensor_id": "1",
+      "temperature": 22.7,
+      "humidity": 58
+    },
+    {
+      "timestamp": "2025-04-07T12:00:00.300Z",
+      "sensor_id": "1",
+      "temperature": 22.8,
+      "humidity": 60
+    },
+    {
+      "timestamp": "2025-04-07T12:00:00.400Z",
+      "sensor_id": "1",
+      "temperature": 22.9,
+      "humidity": 61
+    },
+    {
+      "timestamp": "2025-04-07T12:00:00.500Z",
+      "sensor_id": "1",
+      "temperature": 23.0,
+      "humidity": 62
+    },
+
+    {
+      "timestamp": "2025-04-07T12:00:59.500Z",
+      "sensor_id": "1",
+      "temperature": 23.8,
+      "humidity": 65
+    },
+    {
+      "timestamp": "2025-04-07T12:00:59.600Z",
+      "sensor_id": "1",
+      "temperature": 23.9,
+      "humidity": 66
+    }
+  ]
+}
