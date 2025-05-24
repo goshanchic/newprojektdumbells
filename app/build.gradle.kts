@@ -76,6 +76,8 @@ dependencies {
     implementation(libs.navigation.ui)
     implementation(libs.volley)
 
+    implementation ("com.github.weliem:blessed-android:2.0.6")
+
     // Тесты
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
