@@ -5,9 +5,7 @@
     <uses-feature
         android:name="android.hardware.bluetooth_le"
         android:required="true" /> <!-- Поддержка BLE -->
-    <uses-feature
-        android:name="android.hardware.bluetooth_le"
-        android:required="true" />
+
 
     <uses-permission android:name="android.permission.VIBRATE" /> <!-- Базовые разрешения Bluetooth -->
     <uses-permission android:name="android.permission.BLUETOOTH" />
@@ -32,17 +30,7 @@
         android:theme="@style/Theme._3AAAA"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
-        <activity
-            android:name=".SettingsActivity"
-            android:exported="false"
-            android:label="@string/title_activity_settings"
-            android:theme="@style/Theme._3AAAA">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".MainActivity3"
             android:exported="true"
@@ -61,10 +49,7 @@
             android:name=".MainActivity"
             android:exported="true"
             android:label="График" />
-        <activity
-            android:name=".GraphActivity"
-            android:exported="true"
-            android:label="График" />
+
     </application>
 
 </manifest>

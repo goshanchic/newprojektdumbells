@@ -1,4 +1,4 @@
-package com.example.a3aaaa;
+/*package com.example.a3aaaa;
 
 import androidx.annotation.NonNull;
 
@@ -10,6 +10,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 import org.jetbrains.annotations.Nullable;
+
 
 public class BloodPressureMeasurement implements Serializable {
 
@@ -23,9 +24,16 @@ public class BloodPressureMeasurement implements Serializable {
         BluetoothBytesParser parser = new BluetoothBytesParser(value);
 
         // Get systolic, diastolic and mean arterial pressure
-        x = parser.getFloatValue(0);
-        y = parser.getFloatValue(0);
-        z = parser.getFloatValue(0);
+        float x = parser.getFloatValue();
+        float y = parser.getFloatValue();
+        float z = parser.getFloatValue();
+        float accelx = parser.getFloatValue();
+        float accely = parser.getFloatValue();
+        float accelz = parser.getFloatValue();
+        float posx = parser.getFloatValue();
+        float posy = parser.getFloatValue();
+        float posz = parser.getFloatValue();
+        dataListener.onAccelDataReceived(x, y, z, accelx, accely, accelz, posx, posy, posz);
 
         // Read timestamp
     }
@@ -37,3 +45,6 @@ public class BloodPressureMeasurement implements Serializable {
         return String.format(Locale.ENGLISH,"x: %.0f, y: %.0f, z: %.0f", x, y, z);
     }
 }
+
+
+ */

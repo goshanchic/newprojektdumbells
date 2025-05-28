@@ -75,8 +75,9 @@ dependencies {
     implementation(libs.navigation.fragment)
     implementation(libs.navigation.ui)
     implementation(libs.volley)
+    //ble
 
-    implementation ("com.github.weliem:blessed-android:2.0.6")
+    implementation ("com.github.weliem:blessed-android:2.5.2")
 
     // Тесты
     testImplementation(libs.junit)
